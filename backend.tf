@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "w7-fii-terraform" #replace with your bucket
+    bucket         = "hggdssfghhhy" #replace with your bucket
     key            = "week10/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
-    dynamodb_table = "locktable"
+    dynamodb_table = "lggghhygvv"
   }
 }
